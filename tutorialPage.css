@@ -1,0 +1,89 @@
+.animated {
+  animation-duration: 5s;
+}
+  body{
+  background-image: url("static-webpage/tutorialAssets/color-design-flora-1166644.jpg");
+  background-size: 120%;
+  background-position: left;
+  background-repeat: repeat-y;
+  background-color: gainsboro;
+}
+
+h1 {
+  color: darkolivegreen;
+  font-size: 36px;
+}
+
+header{
+  color:darkolivegreen;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidenav {
+    width: 160px; 
+    height: 100%;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    padding: 30px;
+  }
+  
+  .sidenav a {
+    padding: 10px;
+    font-size: 30px;
+    color:darkolivegreen;
+    display: block;
+    text-decoration: none;
+  }
+
+  .sidenav a:hover {
+    color: darkgreen;
+    font-weight: bold;
+  }
+
+  /* Style page content */
+  body {
+    margin-left: 220px;
+    padding: 0px 10px;
+    margin-right: 75px;
+  }
+  
+  p{
+    font-size: 18px;
+    font-family: serif;
+  }
+  section, footer{ 
+    display: block;
+    margin-left: 180px;
+    margin-right: 20px;
+  }
+
+
+.foot {
+  background-color: transparent; 
+  color: darkolivegreen;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  text-decoration:none;
+}
+
+
+.foot:hover {
+  background-color: transparent;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  color: darkgreen;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
