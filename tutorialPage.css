@@ -1,8 +1,5 @@
-.animated {
-  animation-duration: 5s;
-}
   body{
-  background-image: url("static-webpage/tutorialAssets/color-design-flora-1166644.jpg");
+  background-image: url("tutorialAssets/color-design-flora-1166644.jpg");
   background-size: 120%;
   background-position: left;
   background-repeat: repeat-y;
